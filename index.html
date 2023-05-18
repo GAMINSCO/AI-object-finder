@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+   <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+
+   <title>AI Object Finder </title>
+</head>
+
+<body>
+   <div class="head_div">
+
+      <p class="head_p">AI Object Finder</p>
+      <label class="head_span">It will only detect the object you entered if it is present in the COCOSSD model.</label>
+
+   </div>
+
+   <br>
+
+   <div id="objects">
+
+      <span class="input_span">Object Name : </span>
+      <br>
+      <input type="text" id="input">
+
+   </div>
+
+   <br>
+
+   <center>
+
+      <button id="start" class="btn btn-success" onclick="start()">Start</button>
+
+   </center>
+
+   <div class="status_div">
+      <h1 id="status" class="AA btn">Status will be displayed here.</h1>
+      <br>
+      <h1 id="obj" class="AA btn">waiting to search for objects...</h1>
+   </div>
+
+   <hr class="hr1">
+
+   <footer>&COPY;_Gaminsco</footer>
+</body>
+<script src="main.js"></script>
+
+</html>

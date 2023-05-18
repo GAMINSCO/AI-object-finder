@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+body {
+   background-size: cover;
+   background-color: lavender;
+   scroll-behavior: smooth;
+   font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.head_div {
+   top: 0;
+   width: 100%;
+   height: 95px;
+   background-color: lightcyan;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border-bottom-color: black !important;
+   border-color: rgba(0, 0, 0, 0);
+   border-width: 3px;
+   border-style: solid;
+   text-align: center;
+   padding: 5px 5px 5px 5px;
+}
+
+.head_p {
+   font-size: 36px;
+   color: black;
+   letter-spacing: 3px;
+}
+
+.head_span {
+   font-size: 14px;
+   color: rgba(0, 0, 0, 0.849);
+}
+
+#objects {
+   text-align: center;
+}
+
+.input_span {
+   font-size: 16px;
+   color: rgba(0, 0, 0, 0.89);
+}
+
+#input {
+   width: 40%;
+   height: 40px;
+   font-size: 22px;
+   background-color: beige;
+   color: black;
+   border: 2px solid black;
+}
+
+.hr1 {
+   border: 1px solid black;
+   width: 100%;
+}
+
+.status_div {
+   text-align: center;
+}
+
+#start {
+   width: 20%;
+   height: 45px;
+   color: rgb(255, 255, 255);
+   letter-spacing: 3px;
+   font-size: 22px;
+   font-weight: bold;
+   border: 1px solid black;
+   border-radius: 15px;
+}
+
+.AA {
+   font-size: 22px;
+   background-color: cornflowerblue;
+   border: 1px solid black;
+   border-radius: 15px;
+   font-weight: 600;
+}
+
+#status {
+   width: 30%;
+}
+
+#obj {
+   width: 35%;
+}
+
+footer {
+   bottom: 0 !important;
+   font-size: 14px;
+   font-weight: 200;
+   position: fixed;
+   margin-bottom: 0px;
+}
+
+canvas {
+   border: 1px solid black;
+}
