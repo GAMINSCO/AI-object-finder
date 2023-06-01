@@ -1,4 +1,3 @@
-/*
 var thestatus = false;
 var objectName = "";
 var object = "";
@@ -71,4 +70,4 @@ function draw() {
       }
    }
 }
-*/
+
